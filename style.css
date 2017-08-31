@@ -1,0 +1,28 @@
+html,body{
+	height:100%;
+	margin: 0;
+}
+
+.container-fluid{
+	background-image: url("img.jpg");
+	height:100%;
+	width:100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+}
+
+.center{
+	text-align:center;
+}
+
+.box{
+	position: absolute;
+  	top: 50%;left: 50%;
+  	transform: translate(-50%, -50%);
+  	
+  	width:100%;
+  	text-align: center;
+
+}
