@@ -32,3 +32,11 @@ html,body{
 .btn{
 	margin-top:10px;
 }
+
+.alert{
+	margin-top:25px;
+	display: none;
+}
+#fail, #warn{
+	display: none;
+}
